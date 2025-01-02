@@ -1,0 +1,56 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 325px;
+    background-color:  white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    margin: auto
+}
+
+img {
+    border-radius: 10%;
+    padding: 20px 20px 10px 20px;
+}
+
+.container {
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px 20px 20px; 
+}
+
+p:first-of-type {
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 22px;
+    color: black;
+}
+
+p {
+    font-family: Outfit;
+    font-weight: 400;
+    text-align: center;
+    font-size: 17px;
+    color: grey;
+
+}
+
+.attribution {
+    display: flex;
+    margin-top: auto;
+    
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(outfit/Outfit-VariableFont_wght.ttf);
+}
